@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/** ヘッダー **/
+.header {
+    display: flex;
+}
+
+.header_inner {
+    width: 90%;
+    height: 150%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    align-items: center;
+    }
+
+
+
+.header_inner_name {
+    width: auto;
+    display: flex;
+    flex: none;
+    align-items: center;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header_inner span {
+    color: #8b4513;
+}
+
+.header_inner span img {
+    height: 0.7em;
+    margin: auto;
+}
+
+.header_nav {
+    margin-left: auto;
+    display: flex;
+    flex: none;
+    align-items: center;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-item a {
+    margin-left: 60px;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffff;
+}
+
+/**各メニュー項目の背景**/
+.heading_style {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+
+/**トップイメージ**/
+
+.top_imgs {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+
+}
+
+.top-img img {
+    width: 90%;
+    height: 90%;
+    margin:0 auto;
+    display: flex;
+}
+
+.content_header {
+    margin-bottom: 1em;
+}
+
+.content_header_item {
+    text-align:center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/**ニュース**/
+.news_content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.news_content a {
+    color: black;
+    text-decoration: none;
+}
+
+.news_items {
+    position: relative;
+    background-color: rgb(225, 225, 225);
+    border-radius: 50px;
+    text-align: center;
+    padding: 1em;
+    padding-left: 20px;
+    margin: 20px auto;
+    box-shadow: rgb(0 0 0 / 35%) 0px 3px 5px;
+}
+
+.news_date {
+    margin: auto;
+
+}
+
+.news_item {
+    margin: auto;
+}
+
+/**メニュー**/
+
+.menu_list {
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+
+.menu_item {
+    text-decoration: none;
+    text-align: center;
+
+    }
+
+.menu_item img {
+    margin: 3em 5em 2em 5em;
+
+}
+
+.menu-link {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/**マップ**/
+.position {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.add_1{
+    text-align: center;
+    margin-top: 1.5em;
+    list-style: none;
+}
+
+.add_1 img {
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+
+.add_2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+}
+/**コンタクト**/
+
+.phone_number {
+    display: flex;
+    list-style: none;
+    margin-top: 6em;
+    justify-content:center;
+
+}
+
+.phone_1 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.phone_2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0.5em 1em 0.5em 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mail_address {
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    margin-top: 0.5em;
+    margin-bottom: 6em;
+}
+
+.mail_1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mail_2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0.5em 1em 0.5em 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.fotter_style {
+    display: flex;
+    background-color: #eeeeee;
+    height: 5em;
+}
+
+.fotter_n {
+    margin: auto;
+}
